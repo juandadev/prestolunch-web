@@ -1,0 +1,2 @@
+# Página web ZIBUM
+Esta es la página principal de la app Zibum, a la fecha de la última actualización la página sólo sirve de información para detallar lo que hace la app, y los links de descarga en la app store. Posteriormente se tendrá en cuenta incluir la misma dinámica aleatoria para la búsqueda de lugares para comer.
