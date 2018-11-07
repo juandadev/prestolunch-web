@@ -4,3 +4,6 @@ Esta es la página principal de la app Zibum, a la fecha de la última actualiza
 ## Actualizaciones
 ### 31/10/18
 Por cuestiones de dominio y derechos de autor, el nombre de Zibum no pudo ser adquirido al ya estar en existencia una app con el mismo nombre. En cambio su nombre ha sido modificado por "Presto Lunch" haciendo referencia a poder encontrar un lugar para comer de manera rápida sin tantos rodeos.
+
+### 07/11/18
+Agregando esqueleto html del index, la pagina muestra varios y menus, botones y links que aun no estan habilitados hasta terminar todo lo relacionado con la app. Tambien se han agregado las carpetas de css e imagenes.
