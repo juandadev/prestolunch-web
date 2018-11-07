@@ -17,3 +17,8 @@
     font-family: "Titillium-Web-SemiBold"; 
     src: url('fonts/TitilliumWeb-SemiBold.ttf');
 }
+
+@font-face {
+    font-family: "Titillium-Web-Light"; 
+    src: url('fonts/TitilliumWeb-Light.ttf');
+}

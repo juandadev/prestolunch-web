@@ -11,3 +11,5 @@ Agregando esqueleto html del index, la pagina muestra varios y menus, botones y 
 Inicializando la hoja de estilos css, agregando la familia Titillium-Web como fuente predeterminada para las páginas futuras.
 
 Se dieron los estilos para el header con el menu de navegación, y la parte del banner con un pequeño slogan y el link que manda directamente a la app en Google Play Store (aun no implementado hasta tenerla lista). Se cambió la imagen del cover a una carpeta interna de los archivos css.
+
+Terminadas la sección de la descripcion acerca de la app, y el footer con algunos enlaces aun no habilitados de soporte y redes sociales. Se agregaron los creditos de los iconos de las redes sociales. Unicamente el boton de la pagina de facebook esta habilitado.

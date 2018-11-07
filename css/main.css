@@ -112,3 +112,123 @@ header {
     display: inline-block;
     margin: 0px 10px;
 }
+
+.description {
+    background: #F5F2F4;
+    width: 100%;
+    padding: 3% 30%;
+}
+
+.parral img {
+    width: 100%;
+    border: 5px solid #000;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.description h1{
+    text-align: center;
+    margin: 0 0 3% 0;
+    color: #2E1E30;
+    font-family: "Titillium-Web-SemiBold", sans-serif;
+    font-size: 50px;
+}
+
+.description p {
+    text-align:justify;
+}
+
+.parral {
+    width: 100%;
+    padding: 0;
+}
+
+footer {
+    background: #FEAE23;
+    width: 100%;
+    overflow: hidden;
+    padding: 0% 0% 0% 0%;
+    color: #fff;
+}
+
+.greetings {
+    width: 30%;
+    float: left;
+    margin: 3% 0;
+}
+
+.logo {
+    width: 25%;
+    margin: 10% 10% 0% 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.greetings p {
+    text-align: justify;
+    margin: 0 10%;
+}
+
+.support {
+    float: left;
+    width: 30%;
+    margin: 3% 0;
+}
+
+.support article {
+    text-align: center;
+}
+
+.support ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.support ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.social {
+    float: left;
+    width: 30%;
+    margin: 3% 0;
+}
+
+.social article {
+    text-align: center;
+}
+
+.fb {
+    display: block;
+    margin: 0 45%;
+    width: 30%;
+}
+
+.fb img {
+    width: 30%;
+}
+
+.yt {
+    display: block;
+    margin: 0 45%;
+    width: 30%;
+}
+
+.yt img{
+    width: 30%;
+}
+
+.credits {
+    background: #6d4a0d;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #2E1E30;
+}
