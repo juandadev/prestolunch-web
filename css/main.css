@@ -8,29 +8,33 @@
 }
 
 body {
-    font-family: "Titillium-Web", sans-serif;
+    font-family: PT_Sans-Web, sans-serif;
+    background: #f2f2f2;
 }
 
 header {
-    background: #FEAE23;
+    background: #FFC107;
     width: 100%;
     overflow: hidden;
-    padding: 10px;
+    padding: 0px;
 }
 
 .name a {
     float: left;
-    width: 30%;
+    width: 8%;
+    margin: 0px 8%;
 }
 
 .name img {
     width: 100%;
+    padding: 0px;
 }
 
 .nav li {
     display: inline-block;
     text-align: center;
     float: right;
+    height: 100%;
 }
 
 .nav li a {
@@ -38,10 +42,12 @@ header {
     text-decoration: none;
     display: inline-block;
     padding: 20px;
+    -webkit-transition:background 1s ease;
+    transition:background 1s ease;
 }
 
 .nav li a:hover {
-    background: #2E1E30;
+    background: #795548;
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -49,7 +55,7 @@ header {
 }
 
 .session {
-    background: #2E1E30;
+    background: #795548;
 }
 
 .banner {
@@ -59,58 +65,39 @@ header {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    padding: 5%;
+    padding: 6% 15%;;
 }
 
 .motto {
     color: #2E1E30;
     text-align: center;
+    width: auto;
 }
 
 .tiny {
-    color: #000;
-    font-family: "Titillium-Web-Bold", sans-serif;
+    color: #fff;
+    font-family: PT_Sans-Web-Bold, sans-serif;
     font-size: 20px;
 }
 
 .big {
-    color: #000;
-    text-shadow: 3px 3px 80px;
-    font-family: "Titillium-Web-Black", sans-serif;
+    color: #fff;
+    font-family: PT_Sans-Web-Bold, sans-serif;
     font-size: 80px;
 }
 
 .info {
-    width: 70%;
-    text-align: left;
-    color: #000;
-    float: left;
-    padding: 0 50px;
-    font-family: "Titillium-Web-SemiBold", sans-serif;
-    font-size: 30px;
-    text-shadow: 3px 3px 10px;
-}
-
-.playstore {
-    width: 30%;
+    width: auto;
+    text-align: center;
     color: #fff;
+    float: left;
+    font-family: PT_Sans-Web-Bold, sans-serif;
+    font-size: 30px;
+}
+
+.playstorei img{
+    width: 20%;
     float: right;
-}
-
-.playstore p {
-    color: #000;
-    text-align: right;
-    display: inline-block;
-    width: 70%;
-    padding: px;
-    font-family: "Titillium-Web-SemiBold";
-    font-size: 20px;
-}
-
-.badge img {
-    width: 100%;
-    display: inline-block;
-    margin: 0px 10px;
 }
 
 .description {
@@ -130,7 +117,7 @@ header {
     text-align: center;
     margin: 0 0 3% 0;
     color: #2E1E30;
-    font-family: "Titillium-Web-SemiBold", sans-serif;
+    font-family: PT_Sans-Web-Bold, sans-serif;
     font-size: 50px;
 }
 
@@ -147,19 +134,18 @@ footer {
     background: #FEAE23;
     width: 100%;
     overflow: hidden;
-    padding: 0% 0% 0% 0%;
+    padding: 0;
     color: #fff;
 }
 
 .greetings {
-    width: 30%;
+    width: 33%;
     float: left;
-    margin: 3% 0;
+    padding: 10px;
 }
 
 .logo {
-    width: 25%;
-    margin: 10% 10% 0% 10%;
+    width: 20%;
 }
 
 .logo img {
@@ -168,17 +154,17 @@ footer {
 
 .greetings p {
     text-align: justify;
-    margin: 0 10%;
 }
 
 .support {
     float: left;
-    width: 30%;
-    margin: 3% 0;
+    width: 33%;
+    padding: 1%;
 }
 
 .support article {
     text-align: center;
+    font-family: PT_Sans-Web-Bold, sans-serif;
 }
 
 .support ul li a {
@@ -189,46 +175,102 @@ footer {
 .support ul li {
     list-style: none;
     text-align: center;
+    margin: 8px;
 }
 
 .social {
     float: left;
-    width: 30%;
-    margin: 3% 0;
+    width: 33%;
+    padding: 1%
 }
 
 .social article {
     text-align: center;
+    font-family: PT_Sans-Web-Bold, sans-serif;
 }
 
-.fb {
-    display: block;
-    margin: 0 45%;
-    width: 30%;
+.brands {
+    text-align: center;
+    width: auto;
 }
 
-.fb img {
-    width: 30%;
+.brands a:link {
+    color: #fff;
 }
 
-.yt {
-    display: block;
-    margin: 0 45%;
-    width: 30%;
+.brands a:visited {
+    color: #fff;
 }
 
-.yt img{
-    width: 30%;
+.brands a:active {
+    color: #fff;
 }
 
-.credits {
-    background: #6d4a0d;
-    width: 100%;
-    padding: 5px;
-    overflow: hidden;
+.fbi {
+    font-size: 50px;
+    margin: 10px;
 }
 
-.credits a {
-    text-decoration: none;
-    color: #2E1E30;
+.yti {
+    font-size: 50px;
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    font-family: PT_Sans-Web-Bold, sans-serif;
+    font-size: 80px;
+}
+
+.login {
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    padding: 20px;
+    width: 50%;
+    background: #FFC107;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    font-family: PT_Sans-Web, sans-serif;
+    font-size: 20px;
+    border: solid 3px #FFA000;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: left;
+    width: 90%;
+    padding: 3%;
+    margin: 10px;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border: solid 4px #795548;
+}
+
+.login input[type="submit"] {
+    font-family: PT_Sans-Web-Bold, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #795548;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.login a:link {
+    color: #795548;
+}
+
+.login a:visited {
+    color: #795548;
+}
+
+.login a:active {
+    opacity: 0.5;
 }
